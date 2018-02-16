@@ -9,6 +9,6 @@ This is an early version of a library for conducting dynamic analysis of text un
 Copy the R folder to a root path, and run the following code:
 
 ```R
-lapply(list.files('../R'),function(x) { source(paste('../R/',x,sep='')) })
+lapply(list.files('R'),function(x) { source(paste('R/',x,sep='')) })
 ```
 
