@@ -1,0 +1,6 @@
+useDynLib(crqa_nlp)
+
+export(assign_codes,clean_text,get_text_series,plot_rp,text_rqa)
+
+import(crqa,
+       tm,RCurl)
